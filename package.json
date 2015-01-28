@@ -1,0 +1,18 @@
+{
+  "name": "Availability",
+  "version": "1.0.0",
+  "description": "Combines availabilities from multiple google calendars",
+  "contributors": [
+    "Christopher Little <cl554@cam.ac.uk> (http://www.clittle.com)"
+  ],
+  "start": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"We haven't got any tests yet...\" && exit 0"
+  },
+  "dependencies": {
+    "googleapis": "^1.1.1",
+    "moment": "^2.9.0",
+    "q": "^1.1.2"
+  }
+}
